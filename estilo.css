@@ -5,8 +5,30 @@
     padding: 50px 80px;
 }
 
-.caixa1, .caixa2{
+.conteudoTitulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%; 
+    text-align: center;
+}
+
+.conteudoTitulo span.titulo{
+    color: #777;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.caixa1, .caixa2, .caixa3, .caixa4{
     height: 100%;
+    opacity: 0.7;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .caixa1{
@@ -15,6 +37,14 @@
 
 .caixa2{
     background-image: url(imagens/imagem2.jpg);
+}
+
+.caixa3{
+    background-image: url(imagens/imagem3.jpg);
+}
+
+.caixa4{
+    background-image: url(imagens/imagem4.jpg);
 }
 
 h3{
